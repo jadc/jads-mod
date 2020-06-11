@@ -14,11 +14,13 @@ public class ClientProxy implements IProxy {
 	
 	public void preInit(FMLPreInitializationEvent event) {
 		MinecraftForge.EVENT_BUS.register(new EventHandler());
+		GameRegistry.registerWorldGenerator(new OreGenHandler(), 0);
 	}
 
 	public void init(FMLInitializationEvent event) {
 		DictionaryHandler.registerOres();
 		SmeltingHandler.registerRecipes();
+		GameRegistry.registerWorldGenerator(new OreGenHandler(), 3);
 	}
 
 	public void postInit(FMLPostInitializationEvent event) {
