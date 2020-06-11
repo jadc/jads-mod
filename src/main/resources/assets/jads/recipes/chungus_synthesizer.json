@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients": [
+        { "item": "jads:domcoin_block" },
+        { "item": "minecraft:golden_carrot" }
+    ],
+ 
+    "result": {
+        "item": "jads:chungus_synthesizer",
+        "count": 1
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " E ",
+        "HDH",
+        "DBD"
+    ],
+    "key": {
+        "E": {
+            "item": "jads:chungus_essence"
+        },
+        "H": {
+            "type": "minecraft:item_nbt",
+            "item": "forge:bucketFilled",
+            "nbt": {
+                "FluidName": "hot_cum",
+                "Amount": 1000
+            }
+        },
+        "D": {
+            "item": "jads:domcoin_block"
+        },
+        "B": {
+            "item": "minecraft:beacon"
+        }
+    },
+    "result": {
+        "item": "jads:tower",
+        "count": 1
+    }
+}

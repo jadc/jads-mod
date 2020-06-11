@@ -1,0 +1,56 @@
+{
+    "record.place": {
+        "category": "record",
+        "subtitle": "record.place",
+        "sounds": [{ "name":"jads:record/place", "stream": true }]
+    },
+    "record.chungus": {
+        "category": "record",
+        "subtitle": "record.chungus",
+        "sounds": [{ "name":"jads:record/chungus", "stream": true }]
+    },
+    "record.chungus2": {
+        "category": "record",
+        "subtitle": "record.chungus2",
+        "sounds": [{ "name":"jads:record/chungus2", "stream": true }]
+    },
+    
+    "entity.chungus.ambient": {
+        "category": "entity",
+        "subtitle": "entity.chungus.ambient",
+        "sounds": [{ "name":"jads:entity/chungus/ambient", "stream": false }]
+    },
+    "entity.chungus.hurt": {
+        "category": "entity",
+        "subtitle": "entity.chungus.hurt",
+        "sounds": [{ "name":"jads:entity/chungus/hurt", "stream": false }]
+    },
+    "entity.chungus.death": {
+        "category": "entity",
+        "subtitle": "entity.chungus.death",
+        "sounds": [{ "name":"jads:entity/chungus/death", "stream": false }]
+    },
+    
+    "entity.domcoin.impact": {
+        "category": "entity",
+        "subtitle": "entity.domcoin.impact",
+        "sounds": [{ "name":"jads:entity/domcoin/impact", "stream": false }]
+    },
+    "entity.domcoin.flip": {
+        "category": "entity",
+        "subtitle": "entity.domcoin.flip",
+        "sounds": [{ "name":"jads:entity/domcoin/flip", "stream": false }]
+    },
+    
+    "hev.flatline": {
+        "category": "entity",
+        "subtitle": "hev.flatline",
+        "sounds": [{ "name":"jads:hev/flatline", "stream": false }]
+    },
+    
+    "foilhat.reflect": {
+        "category": "entity",
+        "subtitle": "foilhat.reflect",
+        "sounds": [{ "name":"jads:foilhat/reflect", "stream": false }]
+    }
+}

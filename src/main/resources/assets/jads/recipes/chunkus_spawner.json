@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G#",
+        "GNG",
+        "#G#"
+    ],
+    "key": {
+        "#": {
+            "type": "minecraft:item_nbt",
+            "item": "forge:bucketFilled",
+            "nbt": {
+                "FluidName": "hot_cum",
+                "Amount": 1000
+            }
+        },
+        "G": {
+            "item": "jads:domcoin_block"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result":
+    {
+        "item": "jads:chunkus_spawner",
+        "count": 1
+    }
+}

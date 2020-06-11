@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients": [
+        { "item": "jads:domcoin_ingot" }
+    ],
+ 
+    "result": {
+        "item": "jads:domcoin",
+        "count": 9
+    }
+}

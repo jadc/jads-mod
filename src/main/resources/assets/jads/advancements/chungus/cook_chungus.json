@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "jads:chungus_flesh_cooked"
+        },
+        "title": {
+            "translate": "Big Aroma"
+        },
+        "description": {
+            "translate": "Cook the flesh of a Big Chungus"
+        }
+    },
+    "parent": "jads:chungus/kill_chungus",
+    "criteria": {
+        "cooked_chungus_flesh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jads:chungus_flesh_cooked"
+                    }
+                ]
+            }
+        }
+    }
+}

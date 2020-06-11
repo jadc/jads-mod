@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "jads:domcoin"
+        },
+        "title": {
+            "translate": "!betflip all h"
+        },
+        "description": {
+            "translate": "FUCK! I lost this economy..."
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "domcoin": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jads:domcoin"
+                    }
+                ]
+            }
+        }
+    }
+}

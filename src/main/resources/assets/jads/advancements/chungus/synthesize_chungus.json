@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "jads:chungus_synthesizer"
+        },
+        "title": {
+            "translate": "Synthetic Chungi"
+        },
+        "description": {
+            "translate": "Synthesize a Chungus"
+        }
+    },
+    "parent": "jads:chungus/root",
+    "criteria": {
+        "synthesizer": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jads:chungus_synthesizer"
+                    }
+                ]
+            }
+        }
+    }
+}

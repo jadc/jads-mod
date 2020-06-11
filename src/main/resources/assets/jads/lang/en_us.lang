@@ -1,0 +1,72 @@
+// Tab
+itemGroup.tabjads=Jad's Mod
+
+// Blocks
+fluid.cum=Cum
+tile.cum.name=Cum 
+tile.weirdchamp.name=WeirdChamp Block
+tile.domcoin_block.name=Block of domcoin
+fluid.hot_cum=Hot Cum
+tile.hot_cum.name=Hot Cum
+tile.jad_head.name=Jad Head
+tile.missing.name=Missing Block
+tile.domcoin_ore.name=domcoin Ore
+tile.foil.name=Foil (Unobtainable)
+tile.tower.name=5G Tower
+tile.chungus_synthesizer.name=Chungus Synthesizer
+tile.flowey.name=Flowey
+
+// Items
+item.domcoin.name=domcoin
+item.chungus_flesh.name=Raw Chungflesh
+item.chungus_flesh_cooked.name=Cooked Chungflesh
+item.domcoin_ingot.name=domcoin Ingot
+item.chungus_essence.name=Essence of Chungus
+item.sandbag.name=Sandbag
+item.foil_roll.name=Roll of Aluminum Foil
+item.foil_hat.name=Aluminum Foil Hat
+item.chunkus_spawner.name=Beckoner of Chunkus
+item.fossilized_chungus.name=Fossilized Chungus
+
+/// Records
+item.record_place.name=Music Disc
+item.record.place.desc=Playboi Carti - Place
+item.record_chungus.name=Music Disc
+item.record.chungus.desc=Endigo - BIG CHUNGUS
+item.record_chungus2.name=Music Disc
+item.record.chungus2.desc=Endigo - BIG CHUNGUS 2
+
+
+// Entities
+entity.chungus.name=Big Chungus
+entity.chungus.ambient=Big Chungus speaks
+entity.chungus.hurt=Big Chungus squeals
+entity.chungus.death=Big Chungus dies
+
+entity.chunkus.name=Big Chunkus
+entity.chunkus.ambient=Big Chunkus speaks
+entity.chunkus.hurt=Big Chunkus squeals
+entity.chunkus.death=Big Chunkus dies
+
+entity.chungus_hostile.name=Enraged Big Chungus
+entity.chungus_hostile.ambient=Big Chungus growls
+entity.chungus_hostile.hurt=Big Chungus squeals
+entity.chungus_hostile.death=Big Chungus dies
+
+// Sounds
+entity.domcoin.impact=domcoin lands
+entity.domcoin.flip=domcoin flips
+hev.flatline=Player flatlines
+
+// Potions
+effect.5g=5G Radiation
+potion.effect.5g=Potion of 5G Radiation
+splash_potion.effect.5g=Splash Potion of 5G Radiation
+lingering_potion.effect.5g=Lingering Potion of 5G Radiation
+tipped_arrow.effect.5g=Arrow of 5G Radiation
+
+// Damage
+death.attack.jads.5g=%1$s was ionized by 5G radiation
+death.attack.jads.5g.player=%1$s was ionized by %2$s using 5G radiation
+death.attack.jads.flowey=%1$s was welcomed to the underground
+death.attack.jads.flowey.player=%1$s was welcomed to the underground by %2$s

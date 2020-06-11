@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "jads:foil_hat"
+        },
+        "title": {
+            "translate": "Shiny Scalp"
+        },
+        "description": {
+            "translate": "Decor your scalp with aluminum foil"
+        }
+    },
+    "parent": "jads:fiveg/foil_roll",
+    "criteria": {
+        "foil_hat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jads:foil_hat"
+                    }
+                ]
+            }
+        }
+    }
+}
