@@ -35,7 +35,6 @@ public class RegistryHandler {
 	public static void onBlockRegister(RegistryEvent.Register<Block> e) {
 		e.getRegistry().registerAll(Features.BLOCKS.toArray(new Block[0]));
 		FeaturesTileEntities.registerTileEntities();
-		GameRegistry.registerWorldGenerator(new OreGenHandler(), 3);
 	}
 	
 	@SubscribeEvent
