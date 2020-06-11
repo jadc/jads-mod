@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=up":    { "model": "jads:foil", "uvlock": true },
+        "facing=down":  { "model": "jads:foil", "uvlock": true, "x": 180 },
+        "facing=east":  { "model": "jads:foil", "uvlock": true, "x": 90, "y": 90 },
+        "facing=west":  { "model": "jads:foil", "uvlock": true, "x": 90, "y": 270 },
+        "facing=south": { "model": "jads:foil", "uvlock": true, "x": 90, "y": 180 },
+        "facing=north": { "model": "jads:foil", "uvlock": true, "x": 90 }
+    }
+}

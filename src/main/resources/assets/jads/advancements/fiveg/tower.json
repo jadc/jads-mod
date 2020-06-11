@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "jads:tower"
+        },
+        "title": {
+            "translate": "Become The Government"
+        },
+        "description": {
+            "translate": "Establish your very own 5G tower"
+        }
+    },
+    "parent": "jads:fiveg/give_fiveg",
+    "criteria": {
+        "tower": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jads:tower"
+                    }
+                ]
+            }
+        }
+    }
+}

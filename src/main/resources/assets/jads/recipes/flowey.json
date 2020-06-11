@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "W",
+        "F"
+    ],
+    "key": {
+        "W": {
+            "item": "jads:weirdchamp"
+        },
+        "F": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "jads:flowey",
+        "count": 8
+    }
+}

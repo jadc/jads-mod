@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CDC",
+        "CCC"
+    ],
+    "key": {
+        "D": {
+            "item": "jads:domcoin_block"
+        },
+        "C": {
+            "item": "minecraft:carrot"
+        }
+    },
+    "result":
+    {
+        "item": "jads:chungus_synthesizer",
+        "count": 1
+    }
+}

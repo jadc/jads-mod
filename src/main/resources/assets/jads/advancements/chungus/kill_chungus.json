@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "jads:chungus_flesh"
+        },
+        "title": {
+            "translate": "That'll Hold 'Em, Alright"
+        },
+        "description": {
+            "translate": "Slay a Big Chungus"
+        }
+    },
+    "parent": "jads:chungus/synthesize_chungus",
+    "criteria": {
+        "chungus_flesh": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "jads:chungus"
+                }
+            }
+        }
+    }
+}

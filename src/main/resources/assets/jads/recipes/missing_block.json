@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BM",
+        "MB"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:concrete",
+            "data": 15
+        },
+        "M": {
+            "item": "minecraft:concrete",
+            "data": 2
+        }
+    },
+    "result": {
+        "item": "jads:missing",
+        "count": 4
+    }
+}

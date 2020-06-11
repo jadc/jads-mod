@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "jads:chunkus_spawner"
+        },
+        "title": {
+            "translate": "A Forgotten Deity"
+        },
+        "description": {
+            "translate": "Assemble the Beckoner of Chunkus"
+        }
+    },
+    "parent": "jads:chungus/breed_chungus",
+    "criteria": {
+        "chunkus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jads:chunkus_spawner"
+                    }
+                ]
+            }
+        }
+    }
+}

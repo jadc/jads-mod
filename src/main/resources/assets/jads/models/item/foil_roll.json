@@ -1,0 +1,63 @@
+{
+	"display": {
+        "gui": {
+            "rotation": [ 30, 225, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 0, 0 ],
+            "translation": [ 0, 0, 10],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 60, 0, 0 ],
+            "translation": [ 0, 2, -2 ],
+            "scale": [ 0.50, 0.50, 0.50 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ -60, 0, 0 ],
+            "translation": [ 0, 2, -2 ],
+            "scale": [ 0.50, 0.50, 0.50 ]
+        }
+    },
+    "textures": {
+		"0": "jads:blocks/foil_smooth",
+		"1": "jads:blocks/foil_rollhole",
+		"particle": "jads:blocks/foil_smooth"
+	},
+	"elements": [
+		{
+			"name": "roll",
+			"from": [0, -1.41421, 10.58579],
+			"to": [16, 2.58579, 14.58579],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 2, 14]},
+			"faces": {
+				"north": {"uv": [0, 12, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 8, 16, 12], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"down": {"uv": [0, 4, 16, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 12],
+			"faces": {
+				"up": {"uv": [0, 4, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 12], "texture": "#0"}
+			}
+		}
+	]
+}

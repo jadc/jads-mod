@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "jads:foil_roll"
+        },
+        "title": {
+            "translate": "Government Protection"
+        },
+        "description": {
+            "translate": "Decor your walls with aluminum foil"
+        }
+    },
+    "parent": "jads:fiveg/root",
+    "criteria": {
+        "foil_roll": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jads:foil_roll"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients": [
+        { "item": "jads:jad_head" },
+        { "item": "jads:weirdchamp" }
+    ],
+ 
+    "result": {
+        "item": "jads:record_place",
+        "count": 1
+    }
+}

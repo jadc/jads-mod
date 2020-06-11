@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spawn_egg"
+        },
+        "title": {
+            "translate": "Securing The Future Of The Chungi"
+        },
+        "description": {
+            "translate": "Breed two Chungi together"
+        }
+    },
+    "parent": "jads:chungus/cook_chungus",
+    "criteria": {
+        "bred_chungus": {
+            "trigger": "bred_animals",
+            "conditions": {
+                "parent": {
+                    "type": "jads:chungus"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bred_chungus"
+        ]
+    ]
+}

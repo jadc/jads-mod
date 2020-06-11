@@ -1,0 +1,12 @@
+.gradle
+.settings
+bin
+build
+eclipse
+gradle
+run
+.classpath
+.project
+gradle.properties
+gradlew
+*.launch

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "jads:chungus_essence"
+        },
+        "title": {
+            "translate": "A Big Win"
+        },
+        "description": {
+            "translate": "Defeat Big Chunkus"
+        }
+    },
+    "parent": "jads:chungus/chunkus",
+    "criteria": {
+        "kill_chunkus": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "jads:chunkus"
+                }
+            }
+        }
+    }
+}

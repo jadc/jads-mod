@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#N#",
+        "###"
+    ],
+    "key": {
+        "N": {
+            "item": "jads:chungus_flesh"
+        },
+        "#": {
+            "item": "minecraft:clay_ball"
+        }
+    },
+    "result": {
+        "item": "jads:weirdchamp",
+        "count": 8
+    }
+}
