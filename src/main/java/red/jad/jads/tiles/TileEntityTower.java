@@ -25,19 +25,19 @@ public class TileEntityTower extends TileEntityLockable implements ITickable, IS
 { 
 	private String customName;
 	
-	private static final int MAX_ENERGY = 10000;
-	private static final int MIN_ENERGY = 1000;
+	private static final int MAX_ENERGY = 144000;
+	private static final int MIN_ENERGY = 2400;
 	FeaturesEnergy energy = new FeaturesEnergy(MAX_ENERGY, MAX_ENERGY, MAX_ENERGY, MAX_ENERGY);
 	
     public void update(){
     	if (this.world != null){
     		if(!this.world.isRemote) {
-    			if (this.world.getTotalWorldTime() % (10*20) == 0L){
-        			if(this.energy.getEnergyStored() >= MIN_ENERGY) {
+    			if(this.energy.getEnergyStored() >= MIN_ENERGY) {
+            		if(this.world.getTotalWorldTime() % (30*20) == 0) {
                 		this.energy.extractEnergy(MIN_ENERGY, false);
-                		this.addEffectsToPlayers();
-                	}
-                }
+            			this.addEffectsToPlayers();
+            		}
+            	}
     		}
         }
     }
@@ -54,7 +54,7 @@ public class TileEntityTower extends TileEntityLockable implements ITickable, IS
 
             for (EntityLivingBase en : list){
             	if(en != null) {
-            		en.addPotionEffect(new PotionEffect(FeaturesPotions.FIVEG_EFFECT, 30*20, 0, true, true));
+            		en.addPotionEffect(new PotionEffect(FeaturesPotions.FIVEG_EFFECT, 60*20, 0, true, true));
             	}
             }
         }

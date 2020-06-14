@@ -2,10 +2,10 @@ package red.jad.jads.entities;
 
 import javax.annotation.Nullable;
 
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.ai.EntityAIAvoidEntity;
 import net.minecraft.entity.ai.EntityAIFollowParent;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAIMate;
@@ -32,8 +32,8 @@ import net.minecraftforge.fluids.FluidUtil;
 import red.jad.jads.jads;
 import red.jad.jads.features.Features;
 import red.jad.jads.features.FeaturesFluids;
+import red.jad.jads.features.FeaturesSounds;
 import red.jad.jads.util.Shorthands;
-import red.jad.jads.util.handlers.SoundsHandler;
 
 public class EntityChungus extends EntityCow {
 	
@@ -59,6 +59,7 @@ public class EntityChungus extends EntityCow {
         this.tasks.addTask(4, new EntityAIWanderAvoidWater(this, 1.0D));
         this.tasks.addTask(5, new EntityAIWatchClosest(this, EntityPlayer.class, 6.0F));
         this.tasks.addTask(6, new EntityAILookIdle(this));
+        this.tasks.addTask(7, new EntityAIAvoidEntity(this, EntityChungusHostile.class, 6.0F, 1.0D, 1.2D));
     }
 	
 	@Override
@@ -91,17 +92,17 @@ public class EntityChungus extends EntityCow {
 	
 	@Override
 	protected SoundEvent getAmbientSound(){
-        return SoundsHandler.ENTITY_CHUNGUS_AMBIENT;
+        return FeaturesSounds.ENTITY_CHUNGUS_AMBIENT;
     }
 	
 	@Override
     protected SoundEvent getHurtSound(DamageSource damageSourceIn){
-        return SoundsHandler.ENTITY_CHUNGUS_HURT;
+        return FeaturesSounds.ENTITY_CHUNGUS_HURT;
     }
 	
 	@Override
     protected SoundEvent getDeathSound(){
-        return SoundsHandler.ENTITY_CHUNGUS_DEATH;
+        return FeaturesSounds.ENTITY_CHUNGUS_DEATH;
     }
 	
 	/*

@@ -46,11 +46,5 @@
         "category": "entity",
         "subtitle": "hev.flatline",
         "sounds": [{ "name":"jads:hev/flatline", "stream": false }]
-    },
-    
-    "foilhat.reflect": {
-        "category": "entity",
-        "subtitle": "foilhat.reflect",
-        "sounds": [{ "name":"jads:foilhat/reflect", "stream": false }]
     }
 }

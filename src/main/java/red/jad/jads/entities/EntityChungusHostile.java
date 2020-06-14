@@ -20,7 +20,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
 import red.jad.jads.jads;
 import red.jad.jads.features.FeaturesPotions;
-import red.jad.jads.util.handlers.SoundsHandler;
+import red.jad.jads.features.FeaturesSounds;
 
 public class EntityChungusHostile extends EntityCreeper {
 	
@@ -73,7 +73,7 @@ public class EntityChungusHostile extends EntityCreeper {
 
             if (i > 0 && this.timeSinceIgnited == 0)
             {
-                this.playSound(SoundsHandler.ENTITY_CHUNGUS_AMBIENT, 1.0F, 0.75F);
+                this.playSound(FeaturesSounds.ENTITY_CHUNGUS_AMBIENT, 1.0F, 0.75F);
             }
 
             this.timeSinceIgnited += i;
@@ -95,12 +95,12 @@ public class EntityChungusHostile extends EntityCreeper {
 	
 	@Override
     protected SoundEvent getHurtSound(DamageSource damageSourceIn){
-        return SoundsHandler.ENTITY_CHUNGUS_HURT;
+        return FeaturesSounds.ENTITY_CHUNGUS_HURT;
     }
 	
 	@Override
     protected SoundEvent getDeathSound(){
-        return SoundsHandler.ENTITY_CHUNGUS_DEATH;
+        return FeaturesSounds.ENTITY_CHUNGUS_DEATH;
     }
 	
 	/*
