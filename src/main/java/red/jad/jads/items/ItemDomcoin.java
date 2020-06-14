@@ -10,8 +10,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
 import red.jad.jads.entities.EntityDomcoin;
+import red.jad.jads.features.FeaturesSounds;
 import red.jad.jads.util.Shorthands;
-import red.jad.jads.util.handlers.SoundsHandler;
 
 public class ItemDomcoin extends Item {
 
@@ -29,7 +29,7 @@ public class ItemDomcoin extends Item {
             itemstack.shrink(1);
         }
 
-        Shorthands.playSound(worldIn, playerIn.posX, playerIn.posY, playerIn.posZ, SoundsHandler.ENTITY_DOMCOIN_FLIP, SoundCategory.NEUTRAL);
+        Shorthands.playSound(worldIn, playerIn.posX, playerIn.posY, playerIn.posZ, FeaturesSounds.ENTITY_DOMCOIN_FLIP, SoundCategory.NEUTRAL);
         
         if(!worldIn.isRemote){
             EntityDomcoin entityDomcoin = new EntityDomcoin(worldIn, playerIn);

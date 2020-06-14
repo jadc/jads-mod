@@ -11,8 +11,8 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import red.jad.jads.features.Features;
+import red.jad.jads.features.FeaturesSounds;
 import red.jad.jads.util.Shorthands;
-import red.jad.jads.util.handlers.SoundsHandler;
 
 public class EntityDomcoin extends EntityThrowable {
 
@@ -42,7 +42,7 @@ public class EntityDomcoin extends EntityThrowable {
             itemEntity.setAlwaysRenderNameTag(true);
             itemEntity.setCustomNameTag(Shorthands.randomChance() ? "Heads" : "Tails");
             this.world.spawnEntity(itemEntity);
-            Shorthands.playSound(this.world, this.posX, this.posY, this.posZ, SoundsHandler.ENTITY_DOMCOIN_IMPACT, SoundCategory.NEUTRAL);
+            Shorthands.playSound(this.world, this.posX, this.posY, this.posZ, FeaturesSounds.ENTITY_DOMCOIN_IMPACT, SoundCategory.NEUTRAL);
             this.setDead();
         }
     }

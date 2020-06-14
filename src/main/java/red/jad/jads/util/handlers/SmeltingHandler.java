@@ -12,6 +12,6 @@ public class SmeltingHandler {
 		GameRegistry.addSmelting(Features.CHUNGUS_FLESH, new ItemStack(Features.CHUNGUS_FLESH_COOKED, 1), 0.1F);
 		GameRegistry.addSmelting(FluidUtil.getFilledBucket(new FluidStack(FeaturesFluids.FLUID_CUM, 1)), FluidUtil.getFilledBucket(new FluidStack(FeaturesFluids.FLUID_HOT_CUM, 1)), 0.1F);
 		GameRegistry.addSmelting(Features.ORE_DOMCOIN, new ItemStack(Features.INGOT_DOMCOIN, 1), 0.1F);
-		
+		GameRegistry.addSmelting(Features.ORE_FOSSIL, new ItemStack(Features.FOSSILIZED_CHUNGUS, 1), 0.1F);
 	}
 }

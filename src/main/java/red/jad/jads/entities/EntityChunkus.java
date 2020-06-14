@@ -25,8 +25,8 @@ import net.minecraft.world.BossInfoServer;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
 import red.jad.jads.jads;
+import red.jad.jads.features.FeaturesSounds;
 import red.jad.jads.util.Shorthands;
-import red.jad.jads.util.handlers.SoundsHandler;
 
 public class EntityChunkus extends EntityCow implements IEntityMultiPart {
 	
@@ -159,17 +159,17 @@ public class EntityChunkus extends EntityCow implements IEntityMultiPart {
 	
 	@Override
 	protected SoundEvent getAmbientSound(){
-        return SoundsHandler.ENTITY_CHUNGUS_AMBIENT;
+        return FeaturesSounds.ENTITY_CHUNGUS_AMBIENT;
     }
 	
 	@Override
     protected SoundEvent getHurtSound(DamageSource damageSourceIn){
-        return SoundsHandler.ENTITY_CHUNGUS_HURT;
+        return FeaturesSounds.ENTITY_CHUNGUS_HURT;
     }
 	
 	@Override
     protected SoundEvent getDeathSound(){
-        return SoundsHandler.ENTITY_CHUNGUS_DEATH;
+        return FeaturesSounds.ENTITY_CHUNGUS_DEATH;
     }
 	
 	protected void updateAITasks() {

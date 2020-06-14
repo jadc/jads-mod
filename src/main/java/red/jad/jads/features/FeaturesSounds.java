@@ -1,11 +1,11 @@
-package red.jad.jads.util.handlers;
+package red.jad.jads.features;
 
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import red.jad.jads.jads;
 
-public class SoundsHandler {
+public class FeaturesSounds {
 	// Entities
 	public static SoundEvent ENTITY_CHUNGUS_AMBIENT		= registerSound("entity.chungus.ambient");
 	public static SoundEvent ENTITY_CHUNGUS_HURT		= registerSound("entity.chungus.hurt");
@@ -22,9 +22,6 @@ public class SoundsHandler {
 	
 	// HEV
 	public static SoundEvent HEV_FLATLINE				= registerSound("hev.flatline");
-	
-	// Foil hat
-	public static SoundEvent FOILHAT_REFLECT			= registerSound("foilhat.reflect");
 	
 	private static SoundEvent registerSound(String name) {
 		SoundEvent sound = new SoundEvent(new ResourceLocation(jads.MOD_ID, name)).setRegistryName(name);

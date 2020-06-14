@@ -15,6 +15,7 @@ tile.foil.name=Foil (Unobtainable)
 tile.tower.name=5G Tower
 tile.chungus_synthesizer.name=Chungus Synthesizer
 tile.flowey.name=Flowey
+tile.fossilized_chungus_ore.name=Fossilized Chungus
 
 // Items
 item.domcoin.name=domcoin
