@@ -14,7 +14,7 @@ public class EventHandler {
 	@SubscribeEvent
 	public void onPlayerDeath(LivingDeathEvent e) {
 		if(e.getEntity() instanceof EntityPlayerMP) {
-			e.getEntity().getEntityWorld().playSound(null, e.getEntity().getPosition(), FeaturesSounds.HEV_FLATLINE, SoundCategory.PLAYERS, 1.0F, 1.0F);
+			e.getEntity().getEntityWorld().playSound(null, e.getEntity().getPosition(), FeaturesSounds.HEV_FLATLINE, SoundCategory.PLAYERS, 0.25F, 1.0F);
 		}
 	}
 }

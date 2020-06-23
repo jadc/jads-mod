@@ -11,11 +11,13 @@ tile.hot_cum.name=Hot Cum
 tile.jad_head.name=Jad Head
 tile.missing.name=Missing Block
 tile.domcoin_ore.name=domcoin Ore
-tile.foil.name=Foil (Unobtainable)
+tile.foil.name=Foil
 tile.tower.name=5G Tower
 tile.chungus_synthesizer.name=Chungus Synthesizer
 tile.flowey.name=Flowey
 tile.fossilized_chungus_ore.name=Fossilized Chungus
+tile.fossilized_chungus_netherore.name=Fossilized Chungus
+tile.domcoin_netherore.name=domcoin Ore
 
 // Items
 item.domcoin.name=domcoin
@@ -23,15 +25,12 @@ item.chungus_flesh.name=Raw Chungflesh
 item.chungus_flesh_cooked.name=Cooked Chungflesh
 item.domcoin_ingot.name=domcoin Ingot
 item.chungus_essence.name=Essence of Chungus
-item.sandbag.name=Sandbag
 item.foil_roll.name=Roll of Aluminum Foil
 item.foil_hat.name=Aluminum Foil Hat
 item.chunkus_spawner.name=Beckoner of Chunkus
 item.fossilized_chungus.name=Fossilized Chungus
 
 /// Records
-item.record_place.name=Music Disc
-item.record.place.desc=Playboi Carti - Place
 item.record_chungus.name=Music Disc
 item.record.chungus.desc=Endigo - BIG CHUNGUS
 item.record_chungus2.name=Music Disc

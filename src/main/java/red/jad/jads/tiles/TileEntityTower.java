@@ -27,7 +27,7 @@ public class TileEntityTower extends TileEntityLockable implements ITickable, IS
 	
 	private static final int MAX_ENERGY = 144000;
 	private static final int MIN_ENERGY = 2400;
-	FeaturesEnergy energy = new FeaturesEnergy(MAX_ENERGY, MAX_ENERGY, MAX_ENERGY, MAX_ENERGY);
+	FeaturesEnergy energy = new FeaturesEnergy(MAX_ENERGY);
 	
     public void update(){
     	if (this.world != null){

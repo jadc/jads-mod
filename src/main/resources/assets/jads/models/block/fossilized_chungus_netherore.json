@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "jads:blocks/weirdchamp"
+        "all": "jads:blocks/fossilized_chungus_netherore"
     }
 }

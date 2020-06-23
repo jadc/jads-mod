@@ -46,6 +46,8 @@ public class Features {
 	public static final Block CHUNGUS_SYNTHESIZER		= setup( "chungus_synthesizer", new BlockChungusSynthesizer() );
 	public static final Block FLOWEY					= setup( "flowey", new BlockFlowey() );
 	public static final Block ORE_FOSSIL				= setup( "fossilized_chungus_ore", new BlockFossilOre() );
+	public static final Block NETHERORE_FOSSIL			= setup( "fossilized_chungus_netherore", new BlockFossilOre() );
+	public static final Block NETHERORE_DOMCOIN		= setup( "domcoin_netherore", new BlockDomcoinOre() );
 	
 	/*
 	 * Item Registration
@@ -55,7 +57,6 @@ public class Features {
 	public static final Item CHUNGUS_FLESH_COOKED		= setup( "chungus_flesh_cooked", new ItemChungusFlesh(true) );
 	public static final Item INGOT_DOMCOIN				= setup( "domcoin_ingot", new Item() );
 	public static final Item CHUNGUS_ESSENCE			= setup( "chungus_essence", new ItemSimpleFoiled() );
-	public static final Item RECORD_PLACE				= setup( "record_place", new ItemCustomRecord("place", FeaturesSounds.RECORD_PLACE, false) );
 	public static final Item RECORD_CHUNGUS			= setup( "record_chungus", new ItemCustomRecord("chungus", FeaturesSounds.RECORD_CHUNGUS, false) );
 	public static final Item RECORD_CHUNGUS2			= setup( "record_chungus2", new ItemCustomRecord("chungus2", FeaturesSounds.RECORD_CHUNGUS2, true) );
 	public static final Item FOIL_ROLL					= setup( "foil_roll", new ItemRoll() );

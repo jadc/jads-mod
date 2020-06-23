@@ -10,7 +10,7 @@
             "translate": "Establish your very own 5G tower"
         }
     },
-    "parent": "jads:fiveg/give_fiveg",
+    "parent": "jads:fiveg/root",
     "criteria": {
         "tower": {
             "trigger": "minecraft:inventory_changed",
