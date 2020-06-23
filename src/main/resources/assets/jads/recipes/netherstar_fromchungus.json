@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients": [
+        { "item": "jads:chungus_essence" }
+    ],
+ 
+    "result": {
+        "item": "minecraft:nether_star",
+        "count": 1
+    }
+}

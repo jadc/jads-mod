@@ -14,8 +14,4 @@ import red.jad.jads.potions.Potion5G;
 public class FeaturesPotions {
 	public static Potion FIVEG_EFFECT = new Potion5G();
 	public static final PotionType FIVEG = new PotionType("5g", new PotionEffect[] {new PotionEffect(FIVEG_EFFECT, 3*60*20)}).setRegistryName("5g");
-	
-	private static void registerPotionMixes() {
-		PotionHelper.addMix(PotionTypes.AWKWARD, Features.DOMCOIN, FIVEG);
-	}
 }
